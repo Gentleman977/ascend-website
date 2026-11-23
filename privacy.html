@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Ascend</title>
+  <style>
+:root {
+  --bg: #111214;
+  --card: #1C1D21;
+  --accent: #FF3B5C;
+  --green: #22C55E;
+  --text: #FFFFFF;
+  --muted: #A1A1AA;
+  --border: rgba(255, 255, 255, 0.08);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.65;
+  padding: 0 20px 64px;
+}
+.container { max-width: 780px; margin: 0 auto; }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 36px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 800;
+  font-size: 22px;
+  letter-spacing: 0.6px;
+  color: var(--text);
+  text-decoration: none;
+}
+.brand-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--accent);
+  display: inline-block;
+}
+nav a {
+  color: var(--muted);
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+nav a:hover, nav a.active { color: var(--text); }
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 32px;
+  margin-bottom: 24px;
+}
+h1 { font-size: 32px; font-weight: 800; margin-bottom: 10px; }
+h2 { font-size: 20px; font-weight: 700; margin: 26px 0 10px; color: #FFFFFF; }
+p, li { color: #D4D4D8; font-size: 15px; margin-bottom: 12px; }
+ul { padding-left: 20px; margin-bottom: 14px; }
+.meta { color: var(--muted); font-size: 13px; margin-bottom: 24px; }
+.badge {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 20px;
+  background: rgba(255, 59, 92, 0.14);
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  margin-bottom: 14px;
+}
+a.inline-link { color: var(--accent); text-decoration: none; font-weight: 600; }
+a.inline-link:hover { text-decoration: underline; }
+.btn {
+  display: inline-block;
+  background: var(--accent);
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 13px 24px;
+  border-radius: 14px;
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 10px;
+}
+footer {
+  text-align: center;
+  margin-top: 48px;
+  color: var(--muted);
+  font-size: 13px;
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a class="brand" href="index.html"><span class="brand-dot"></span>Ascend</a>
+      <nav>
+        <a href="index.html">Overview</a>
+        <a href="privacy.html" class="active">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+      </nav>
+    </header>
+
+    <div class="card">
+      <h1>Privacy Policy</h1>
+      <p class="meta">Effective Date: November 22, 2026 &bull; Contact: support@ascendapp.co</p>
+
+      <p>Ascend ("we", "our", or "us") respects your privacy and is committed to protecting your personal data. This Privacy Policy explains how we collect, use, process, and safeguard information when you use the Ascend mobile application.</p>
+
+      <h2>1. Information We Collect</h2>
+      <ul>
+        <li><strong>Account &amp; Profile Data:</strong> When you sign in with Google or Apple via Firebase Authentication, we receive your name, email address, and unique user identifier, along with optional onboarding preferences (sex, age group, and wellness goal).</li>
+        <li><strong>Photos You Upload:</strong> When you use Face &amp; De-Bloat Scan or Meal Scanner, the photo you select or capture is transmitted securely over HTTPS to our backend server for automated AI analysis.</li>
+        <li><strong>Meal &amp; Nutrition Logs:</strong> Meals you explicitly choose to add to your Progress Log (estimated calories, macros, micronutrients, and bloat risk) are stored under your user ID so you can review your weekly averages.</li>
+      </ul>
+
+      <h2>2. Face Data Disclosure (Apple &amp; Google Compliance)</h2>
+      <ul>
+        <li><strong>Purpose:</strong> Uploaded facial photos are used strictly to generate instant facial structure, symmetry, and facial water-retention (de-bloating) estimates and personalized wellness tips.</li>
+        <li><strong>No Biometric Identification or Selling:</strong> Ascend does <strong>not</strong> extract biometric templates for identity verification, does <strong>not</strong> use your photos to train third-party AI models, and <strong>never</strong> sells or rents your images or personal data to advertisers or data brokers.</li>
+        <li><strong>Retention:</strong> Facial photos are processed transiently to return your analysis result and are not shared publicly or stored as a public profile gallery.</li>
+      </ul>
+
+      <h2>3. Third-Party Service Providers</h2>
+      <p>We rely on trusted infrastructure providers strictly to operate core app features:</p>
+      <ul>
+        <li><strong>Google Firebase Authentication:</strong> Secure account sign-in and identity management.</li>
+        <li><strong>Google Gemini API:</strong> Transient multimodal processing of uploaded face and meal images to generate structured wellness and nutrition estimates.</li>
+        <li><strong>Apple App Store / Google Play &amp; RevenueCat:</strong> Secure processing and management of in-app subscriptions and free trials. We never see or store your credit card details.</li>
+      </ul>
+
+      <h2>4. Data Deletion &amp; Your Rights</h2>
+      <p>You have full control over your data at all times:</p>
+      <ul>
+        <li><strong>In-App Deletion:</strong> Open <strong>Settings &rarr; Privacy &amp; Security &rarr; Delete All My Logged History</strong> to immediately erase your meal and scan logs.</li>
+        <li><strong>Full Account Deletion:</strong> Email <a class="inline-link" href="mailto:support@ascendapp.co">support@ascendapp.co</a> with the subject "Account Deletion Request" and we will permanently delete your Firebase account and all associated records within 7 business days.</li>
+      </ul>
+
+      <h2>5. Contact Us</h2>
+      <p>If you have any questions about this Privacy Policy, please contact us at <a class="inline-link" href="mailto:support@ascendapp.co">support@ascendapp.co</a>.</p>
+    </div>
+
+    <footer>
+      &copy; 2026 Ascend App &bull; <a class="inline-link" href="index.html">Home</a> &bull; <a class="inline-link" href="terms.html">Terms of Service</a>
+    </footer>
+  </div>
+</body>
+</html>
